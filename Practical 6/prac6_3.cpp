@@ -26,6 +26,7 @@ string infixToPost(string exp){
     char ch=exp[i];
 
     if(isalnum(ch)){
+        
             result+=ch;
         }
 
